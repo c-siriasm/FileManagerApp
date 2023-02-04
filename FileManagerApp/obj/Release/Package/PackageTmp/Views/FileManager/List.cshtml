@@ -1,0 +1,35 @@
+﻿@model List<FileManagerDTO.Models.File>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Created By</th>
+            <th>Created Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.Name</td>
+                <td>@item.CreatedBy</td>
+                <td>@item.CreatedDate</td>
+                <td>
+                    <a href="@Url.Action("DownloadFile", "FileManager", new { fileName = item.Name })">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.AssemblyInfoInputs.cache
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.AssemblyInfo.cs
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.csproj.CoreCompileInputs.cache
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\bin\Debug\net48\FileManagerDTO.dll
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\bin\Debug\net48\FileManagerDTO.pdb
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.dll
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.pdb
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerDTO\obj\Debug\net48\FileManagerDTO.csproj.CopyComplete

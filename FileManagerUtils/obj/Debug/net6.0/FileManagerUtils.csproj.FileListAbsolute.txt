@@ -1,0 +1,5 @@
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerUtils\obj\Debug\net6.0\FileManagerUtils.csproj.AssemblyReference.cache
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerUtils\obj\Debug\net6.0\FileManagerUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerUtils\obj\Debug\net6.0\FileManagerUtils.AssemblyInfoInputs.cache
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerUtils\obj\Debug\net6.0\FileManagerUtils.AssemblyInfo.cs
+C:\Users\csirias\Documents\ProjectTest\FileManagerApp\FileManagerUtils\obj\Debug\net6.0\FileManagerUtils.csproj.CoreCompileInputs.cache

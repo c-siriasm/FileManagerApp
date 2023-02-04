@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "942a593c-2af7-4d92-ae6b-29f582fbbac8": {
+      "ProjectGuid": "942a593c-2af7-4d92-ae6b-29f582fbbac8",
+      "DisplayName": "FileManagerApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "497416e5-0c54-4b84-b3ff-830b72bafb13": {
+      "ProjectGuid": "497416e5-0c54-4b84-b3ff-830b72bafb13",
+      "DisplayName": "FileManagerUtils",
+      "ColorIndex": 1
+    },
+    "146fcc6e-30b4-4105-9fbe-cfca61b51378": {
+      "ProjectGuid": "146fcc6e-30b4-4105-9fbe-cfca61b51378",
+      "DisplayName": "FileManagerData",
+      "ColorIndex": 2
+    },
+    "ffc3934c-8ce6-4a36-a8c1-ddd6b5830548": {
+      "ProjectGuid": "ffc3934c-8ce6-4a36-a8c1-ddd6b5830548",
+      "DisplayName": "FileManagerDTO",
+      "ColorIndex": 3
+    },
+    "241fdade-0266-414d-aec2-c7a399567a29": {
+      "ProjectGuid": "241fdade-0266-414d-aec2-c7a399567a29",
+      "DisplayName": "FileManagerBussinessLogic",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
