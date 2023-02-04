@@ -10,12 +10,24 @@
 @using (Html.BeginForm("UploadFile", "FileManager", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <div class="col-lg-12">
-        <div class="col-lg-6">
+        <div class="col-lg-2">
+            <label>Select File</label>
+        </div>
+        <div class="col-lg-10">
             @Html.TextBox("file", "", new { type = "file", @class = "form-control" }) <br />
         </div>
-        <div class="col-lg-6">
+        
+    </div>
+    <div class="col-lg-12">
+        <div class="col-lg-2">
+            <label>Description</label>
+        </div>
+        <div class="col-lg-4">
+            <input class="form-control" type="text" name="Description" />
+        </div>
+        <div class="col-lg-3">
             <input class="btn btn-primary" type="submit" value="Upload" />
         </div>
-        @ViewBag.Message
     </div>
+    @ViewBag.Message
 }

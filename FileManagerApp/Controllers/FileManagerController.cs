@@ -35,11 +35,18 @@ namespace FileManagerApp.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> UploadFile(HttpPostedFileBase file)
+        public async Task<ActionResult> UploadFile(HttpPostedFileBase file, string Description)
         {
             if (file == null)
             {
-                ViewBag.Message = "No file was selected";
+                ViewBag.Message = "No file was selected.";
+
+                return View();
+            }
+
+            if (string.IsNullOrEmpty(Description))
+            {
+                ViewBag.Message = "Please set a Description.";
 
                 return View();
             }
@@ -51,16 +58,17 @@ namespace FileManagerApp.Controllers
                     id = Guid.NewGuid().ToString(),
                     Name = file.FileName,
                     CreatedBy = User.Identity.Name,
-                    CreatedDate = DateTime.Now
+                    CreatedDate = DateTime.Now,
+                    Description = Description
                 };
 
                 await _fileManagerService.NewUpload(request, file.InputStream);
 
-                ViewBag.Message = "Uploaded successfully";
+                ViewBag.Message = "Uploaded successfully.";
             }
             catch
             {
-                ViewBag.Message = "An error occurred";
+                ViewBag.Message = "An error occurred.";
             }
 
 
